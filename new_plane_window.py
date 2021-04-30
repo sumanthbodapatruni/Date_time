@@ -14,7 +14,7 @@ class Window(QMainWindow):                                                  # cr
         s.pushButton.move(275, 200)                                      # locating the push button'start'
         s.label = QLabel("Hello World", s)                                # display content in the main window
         s.label.move(285, 175)                                           # positioning the content in main window
-        s.setWindowTitle('www.Ecorvi.com')
+        s.setWindowTitle('Ecorvi')
         s.setGeometry(100,100,680,500)
         s.show()                                                         # displaying the main window
         
